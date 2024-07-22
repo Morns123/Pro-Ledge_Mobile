@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_perpus/auth/login.dart';
+import 'package:flutter_perpus/page/splash.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        '/': (context) => LoginPage(),
+        '/': (context) => const SplashPage(),
       },
     );
   }
